@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arbutus+Slab">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Sunny</title>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
+    <nav id="navbar" class="navbar  navbar-expand-lg navbar-dark fixed-top ">
+        <button class="navbar-toggler" id="toggle" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-pills ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link " id="titlenav" href="#welcome-section">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " id="aboutnav" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" id="educationnav" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="skillsnav" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" id="projectnav" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" id="contactnav" class="nav-link">Contact</a>
+                </li>
+                <div class="nav-link" style="visibility: collapse;">
+
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" checked id="darkSwitch"
+                            onclick="changeColor()">
+                        <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+
+    </nav>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <section id="welcome-section" class="">
+        <div class="view view-top"
+            style="background-image: url('https://storage.googleapis.com/my-blogger-1b264.appspot.com/1600786495020?GoogleAccessId=firebase-adminsdk-lb5mr%40my-blogger-1b264.iam.gserviceaccount.com&Expires=1742169600&Signature=b9G2%2BqNHpquJSJxq%2Bcj%2FzhoVW63BuPpL6XidQQW4HItiK5PRGOYe2Crpt%2BfWLHgLg3Zc1UbbIRZbOHKsOrZRiZszAeBf5bTeP15KAgaivMTsRIWkLBkMXmkCo24Y0E112NCUDC28cidluQTLSxjFyZc%2BfRPvRttwJKXRX2UzDyjUn9i5YkCg9I2d4f01Aw0vgm6gPsph16QwLfqiVJlnLmTuo8hxwNETUG6iq98UmrrOmwddZnFglXK%2BfHRTTZ43TbDAyJVeMwHbCXUg6rJKgGiQzhb6m6GU7on3C6Gvei5mpnIQEsp8cRcsbFFxQekQP5TaKabylUuINVfjoWZL%2FA%3D%3D'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="mask rgba-gradient align-items-center">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-12 white-text text-center text-md-left mt-xl-5 mb-5 wow" data-aos="fade-left"
+                            data-wow-delay="0.3s">
+                            <div class="d-flex justify-content-center align-items-center" id="animatedTextBackground">
+                                <h1 class="display-4 text-uppercase" id="animatedTextHeading">Hello There,I am Sunny
+                                </h1>
+                            </div>
+                            <hr class="hr-light">
+                            <div class="padd">
+                                <h3 class="mb-4  background-col" id="example">
+                            </div>
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="info row no-gutters" data-aos="zoom-in">
+            <div class="view-about my-img col-lg-4">
+                <div class="mask  rgba-gradient-about align-items-center">
+                </div>
+            </div>
+            <div class="col-lg-8 about-me">
+
+                <div class="background background-col">
+                    <h1 class="display-4 about-me-head">
+                        <span style="color: #FF5252;"> About</span> Me
+                    </h1>
+                    <div class="divider"></div>
+
+                    <div class="about-me-text padding ">
+
+                        <p class="info  info-font">
+                            I am a self taught programmer, I Love Android Develoment.
+                        </p>
+                        <br>
+
+                        <p class="info-font">
+                            I can help you in projects like:
+                        </p>
+                        <ul>
+                            <li class="info-font">a mobile App (using Kotlin)</li>
+                            <li class="info-font">Mobile friendly Pages using CSS, Bootstrap...</li>
+                            <li class="info-font">Single pages application using Vue.js</li>
+                            <li class="info-font">Web applications using database like MongoDB,Firebase</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="view-about-right my-img-right">
+            <div class="mask  rgba-gradient-about align-items-center">
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <div class="education-div row no-gutters" data-aos="zoom-in" style="padding-bottom: 0">
+            <div class="col-lg-8 education-info background-col">
+
+                <h4>
+
+                    Second Year Undergrad at National Institute of Science and technology. <i class="fas fa-university"
+                        style="background-color: #FF5252;"></i>
+
+                </h4>
+
+                <h4 class="fvt" style="margin-top: 50px;">Favorite Quote</h4>
+                <blockquote>
+                    If you need inspiring words to something, don't do it
+                </blockquote>
+                <h6 class="fvt">
+
+                    -Elon musk
+                </h6>
+
+            </div>
+            <div class="col-lg-4 education-title">
+                <h1 class="education-heading display-1 " style=" height: min-content;">
+                    Edu<span style="color: #FF5252;">cation
+                        <div class="divider" class="edu-divder" style="margin-right: 0 !important;"></div> </span>
+                </h1>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="skills">
+
+        <div class="skill row no-gutters" data-aos="zoom-in">
+            <div class="col-lg-4 skill-title">
+                <h1 class="display-2 head-font">
+                    Skills
+                </h1>
+                <div class="divider" id="skill-divider"></div>
+                <h3 class="display-4 head-font-sub" style="color: #FF5252; white-space: nowrap;">
+                    What I Do
+                </h3>
+            </div>
+            <div class="col-lg-8 skill-detail background-col padding">
+
+                <h5 class="display-4 skills-info">
+                    <img src="assets/img/android.png" class="skill-icon" alt="Android"> Android Development
+                </h5>
+                <ul class="img-padd">
+                    <li>I Build Mobile apps using Kotlin</li>
+                    <li>I can use SQLITE,Realm,Firebase as Database</li>
+                </ul>
+                <h5 class="display-4 skills-info">
+                    <img src="assets/img/web-development.png" class="skill-icon" alt="Desktop">
+                    Full Stack Web-Development
+                </h5>
+                <ul class="img-padd">
+                    <li>
+                        build full fledged frontend application using HTML,CSS,Javascript,Vuejs
+                    </li>
+                    <li>
+                        backend applications,REST API's using NodeJs <i class="fab fa-node-js"></i> and express
+                    </li>
+                    <li>
+                        work with databases like SQL,MongoDB,Firebase
+                    </li>
+                    <li>
+                        Deploying and Maintaining application of Heroku and AWS.
+                    </li>
+                </ul>
+                <h5 class="display-4 skills-info">
+                    <img src="assets/img/code.png" class="skill-icon" alt="Code">
+                    Competitve Programming
+                </h5>
+                <ul class="img-padd">
+                    <li>
+                        I have solved more than 300 questions as of now on various Platforms
+                    </li>
+                    <li>
+                        I am 4 star (1931) in codechef and have been ranked under 200 in Long Challenge
+                    </li>
+                    <li>
+                        have Specialist on Codeforces and Rating of 1544 in hackerearth and 5 star in Hackerrank <i
+                            class="fab fa-hackerrank    "></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <section id="projects" class="content-section" style=" overflow: hidden">
+        <div class="container" data-aos="zoom-in">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5 head-font-sub text-right"><span style="color: #FF5252;">Recent</span> Projects
+                    <div class="divider"
+                        style="margin-right: 0 !important; background:linear-gradient(90deg, transparent 60%, #eee 40%)">
+                    </div>
+
+                </h2>
+                <small class="text-muted" style="float: right;">
+                    Hover over item to view details
+                </small>
+
+
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 block">
+                    <a class="portfolio-item project-tile" href="https://github.com/sunny52525/my-blogger">
+                        <div class="caption">
+                            <div class="caption-content  background-col-pro">
+                                <h2>My Blogger(App)</h2>
+                                <p class="mb-0">A fully functional Blogging app made in kotlin</p>
+                            </div>
+                        </div><img class="img-fluid wid" src="assets/img/blog-app.jpg">
+                    </a>
+                </div>
+                <div class="col-lg-6 block">
+                    <a class="portfolio-item" href="https://github.com/sunny52525/My-Blogger-Web">
+                        <div class="caption">
+                            <div class="caption-content background-col-pro">
+                                <h2 class="project-title">My Blogger(Web)</h2>
+                                <p class="mb-0">Web App of My Blogger which uses same database(firebase) made using
+                                    Nodejs express</p>
+                            </div>
+                        </div><img class="img-fluid wid" src="assets/img/blog-web.jpg">
+                    </a>
+                </div>
+                <div class="col-lg-6 block">
+                    <a class="portfolio-item " href="https://github.com/sunny52525/html-textview">
+                        <div class="caption">
+                            <div class="caption-content background-col-pro">
+                                <h2>HTML View</h2>
+                                <p class="mb-0">An Open source Android library which parses html text and shows in
+                                    textview with some extra features</p>
+                            </div>
+                        </div><img class="img-fluid wid" src="assets/img/libaray.jpg">
+                    </a>
+                </div>
+                <div class="col-lg-6 block">
+                    <a class="portfolio-item " href="https://github.com/sunny52525/News-App">
+                        <div class="caption">
+                            <div class="caption-content background-col-pro">
+                                <h2>News App</h2>
+                                <p class="mb-0">A Clean News app written in Kotlin</p>
+                            </div>
+                        </div><img class="img-fluid wid" src="assets/img/news.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-form" data-aos="zoom-in">
+            <div class="view" style="background-image: url('https://storage.googleapis.com/my-blogger-1b264.appspot.com/1601065604106?GoogleAccessId=firebase-adminsdk-lb5mr%40my-blogger-1b264.iam.gserviceaccount.com&Expires=1742169600&Signature=s1kW756qaHrAHGS4dKB1GfeFdNWMJhM7%2FKZGrjCFnc%2Bj92d1HTCGH4bd5dAdwGuMl2AWBGPI8kMyLjNBHlRLxkU4o9FWjVok%2F9TNjDn3PaFd%2FpppRapnQCkOVM9xBLczGh8nyof01ubwYuXLbOq5hP38J0rCNv4jZpaoY67djjd%2FDt8OL1S7W6nkT3Ptraq3Rr2gZMwoIWYAE5LmqI%2BmTiTxkORPg%2BLIqst4K4Kigz9tdOKGjSGDtmQy6Yc2CRvkEWlgXVCfJTNi8sKm18Hsb5TERku%2BeMbQj8Hs8h0NC8Une3VqBZXvsvRjjTK8MbCtHFnZlktiCfzNxstrt6ugMQ%3D%3D'); 
+            background-repeat: no-repeat; background-size: cover; background-position: center center;">
+                <div class="mask rgba-gradient contact-mask ">
+
+                    <div class="row contact-container">
+                        <div class="col-lg-4 contact-title text-center">
+                            <h1 class="display-4" style="white-space: nowrap;">Lets work
+                                <div class="divider"
+                                    style="width: 80% !important; padding: 0 !important; margin-left: 50px !important; margin-right: 50px !important; background-color: #212529;">
+                                </div>
+                                <span style="color: #FF5252;">Together</span></h1>
+
+                            <h5>Have a question? drop me an email or fill this form! </h5>
+                        </div>
+                        <div class="col-lg-8 contact-inputs">
+                            <div class="container modern-form">
+                                <div class="text-center">
+                                    <h4 style="color: #212529;font-size: 45px;">Get in touch</h4>
+                                </div>
+                                <hr class="modern-form__hr">
+                                <div class="modern-form__form-container">
+                                    <form id="form-contact"
+                                        action="https://send.pageclip.co/P3ltreBkgjlpdPUufwZzqNUlgJk2JOTV/contact-form"
+                                        class="pageclip-form" method="post">
+                                        <div class="form-row">
+                                            <div class="col col-contact">
+                                                <div class="form-group modern-form__form-group--padding-r"><input
+                                                        class="form-control input input-tr" type="text" required
+                                                        name="name" placeholder="First Name">
+                                                    <div class="line-box">
+                                                        <div class="line"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col col-contact">
+                                                <div class="form-group modern-form__form-group--padding-l"><input
+                                                        class="form-control input input-tr" type="email" required
+                                                        name="email" placeholder="Email">
+                                                    <div class="line-box">
+                                                        <div class="line"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col">
+                                                <div class="form-group modern-form__form-group--padding-t"><textarea
+                                                        class="form-control input modern-form__form-control--textarea"
+                                                        required name="message" placeholder="Message"></textarea>
+                                                    <div class="line-box">
+                                                        <div class="line"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div>
+
+                                                <div class="col text-center"><button
+                                                        class="btn btn-primary submit-now pageclip-form__submit"
+                                                        type="submit">Submit</button></div>
+                                            </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+
+
+    <div class="footer-basic" data-aos="fade-in">
+        <footer>
+            <div class="social"><a href="mailto:kumarsunny3232@gmail.com"> <i class="fa fa-envelope"
+                        aria-hidden="true"></i></a><a href="https://twitter.com/sunny52525"><i class="fab fa-twitter"
+                        aria-hidden="true"></i></i></a><a id="profile-link" target="_blank"  href="https://github.com/sunny52525"><i class="fab fa-github" aria-hidden="true"></i></a><a
+                    href="https://linkedin.com/in/sunny52525"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+            </div>
+
+
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#welcome-section">Home</a></li>
+                <li class="list-inline-item"><a href="#about">About</a></li>
+                <li class="list-inline-item"><a href="#education">Education</a></li>
+                <li class="list-inline-item"><a href="#skills">Skills</a></li>
+                <li class="list-inline-item"><a href="#contact">Contact</a></li>
+            </ul>
+            <p class="copyright">Sunny © 2020</p>
+        </footer>
+    </div>
+
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="typer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
